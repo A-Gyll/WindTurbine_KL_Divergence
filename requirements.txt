@@ -1,0 +1,14 @@
+# For running the model
+pandas
+transformers
+datasets
+peft
+evaluate
+seaborn
+
+# For the youtube link & comment scrapper
+google-api-python-client
+python-dotenv
+
+scikit-learn
+matplotlib
