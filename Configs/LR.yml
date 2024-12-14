@@ -1,0 +1,11 @@
+model_name: "logistic regression classifier"
+model_params:
+  C: 1.0
+  penalty: 'l2'
+  solver: 'lbfgs'
+  max_iter: 200
+target_property: pitch_angle_bin
+pred_property: gearbox_temp_bin
+shadow_model_ratios: [0.9, 0.8]
+data_path: "/home/ujx4ab/ondemand/WindTurbine_KL_Divergence/Data/combined_data.csv"
+test_ratio: 0.2
